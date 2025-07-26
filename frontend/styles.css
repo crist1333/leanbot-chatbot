@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.chat-container {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+#input {
+  flex: 1;
+  padding: 10px;
+}
+
+button {
+  padding: 10px 20px;
+}
+
+#chat p {
+  margin: 5px 0;
+}
+
+.user {
+  font-weight: bold;
+}
+
+.bot {
+  font-style: italic;
+  color: #333;
+}
+
+.error {
+  color: red;
+}
